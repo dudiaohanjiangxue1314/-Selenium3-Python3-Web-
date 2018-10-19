@@ -54,6 +54,7 @@ class RegisterHandle(object):
 
 
 if __name__ == '__main__':
+    '''
     # driver = webdriver.Chrome()
     # driver.get("http://www.5itest.cn/register") #打开页面
     # driver.maximize_window() #窗口最大化
@@ -72,3 +73,4 @@ if __name__ == '__main__':
     # register_handle.click_register_button()
     # time.sleep(10)
     # driver.close()
+    '''

@@ -14,7 +14,8 @@ class RegisterBusiness(object):
         self.register_h.click_register_button()
     
     #注册成功
-    def register_succes(self):
+    def register_succes(self,email,name,password,file_name):
+        self.user_base(email,name,password,file_name)
         if self.register_h.get_register_text() == None:
             return True
         else:

@@ -22,7 +22,7 @@ class GetCode(object):
         im = Image.open(file_name) #使用pillow中的Image方法打开之前保存的图片
         img = im.crop((left,top,right,height)) #使用crop方法进行裁剪，取出图片中的验证码图片
         img.save(file_name) #保存裁剪出的验证码图片
-        time.sleep(1)
+        time.sleep(1) #加上时间延迟，使得在解析之前能够有足够的时间保存图片
 
     #解析图片获取验证码
     def code_online(self,file_name):
