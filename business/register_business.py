@@ -54,3 +54,11 @@ class RegisterBusiness(object):
         else:
             return False
 
+    #注册功能整合，是对上面几个方法的封装，以后只需要调用这一个方法即可
+    def register_function(self,email,username,password,file_name,assertCode,assertText):
+        self.user_base(email,username,password,file_name)
+        if self.register_h.get_user_text(assertCode,assertText) == None:
+            return True
+        else:
+            return False
+

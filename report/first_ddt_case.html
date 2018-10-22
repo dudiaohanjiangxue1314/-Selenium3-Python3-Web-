@@ -2,7 +2,7 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <title>This is firstcase report</title>
+    <title>this is second report</title>
     <meta name="generator" content="HTMLTestRunner 0.8.2"/>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     
@@ -188,12 +188,12 @@ function showOutput(id, name) {
 --></script>
 
 <div class='heading'>
-<h1>This is firstcase report</h1>
-<p class='attribute'><strong>Start Time:</strong> 2018-10-19 15:04:21</p>
-<p class='attribute'><strong>Duration:</strong> 0:00:56.146095</p>
-<p class='attribute'><strong>Status:</strong> Pass 1 Failure 1</p>
+<h1>this is second report</h1>
+<p class='attribute'><strong>Start Time:</strong> 2018-10-22 16:03:49</p>
+<p class='attribute'><strong>Duration:</strong> 0:01:25.847643</p>
+<p class='attribute'><strong>Status:</strong> Pass 2 Failure 1</p>
 
-<p class='description'>这个是第一次测试报告</p>
+<p class='description'>这是第二个报告</p>
 </div>
 
 
@@ -222,59 +222,49 @@ function showOutput(id, name) {
 </tr>
 
 <tr class='failClass'>
-    <td>FirstCase</td>
+    <td>FirstDataCase</td>
+    <td>3</td>
     <td>2</td>
     <td>1</td>
-    <td>1</td>
     <td>0</td>
-    <td><a href="javascript:showClassDetail('c1',2)">Detail</a></td>
+    <td><a href="javascript:showClassDetail('c1',3)">Detail</a></td>
 </tr>
 
 <tr id='pt1.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_login_success</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
-        pass</a>
-
-    <div id='div_pt1.1' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-pt1.1: 
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
+    <td class='none'><div class='testcase'>test_register_case_1___122____Mushishi11____111111____D___selenium_image__test02_png____user_email_error____请输入有效的电子邮件地址__: list() -> new empty list</div></td>
+    <td colspan='5' align='center'>pass</td>
 </tr>
 
-<tr id='ft1.2' class='none'>
-    <td class='failCase'><div class='testcase'>test_login_email_error</div></td>
+<tr id='pt1.2' class='hiddenRow'>
+    <td class='none'><div class='testcase'>test_register_case_2____qq_com____Mushishi12____111112____D___selenium_image__test02_png____user_email_error____请输入有效的电子邮件地址__: list() -> new empty list</div></td>
+    <td colspan='5' align='center'>pass</td>
+</tr>
+
+<tr id='ft1.3' class='none'>
+    <td class='failCase'><div class='testcase'>test_register_case_3___124_qq_com____Mushishi13____111113____D___selenium_image__test02_png____user_email_error____请输入有效的电子邮件地址__: list() -> new empty list</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.2')" >
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.3')" >
         fail</a>
 
-    <div id='div_ft1.2' class="popup_window">
+    <div id='div_ft1.3' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.2').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.3').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-ft1.2: Traceback (most recent call last):
-  File ".\first_case.py", line 38, in test_login_email_error
+ft1.3: Traceback (most recent call last):
+  File "C:\Users\306.INVO\AppData\Local\Programs\Python\Python36\lib\site-packages\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File ".\first_ddt_case.py", line 52, in test_register_case
     self.assertFalse(email_error,'测试失败')
 AssertionError: True is not false : 测试失败
 Traceback (most recent call last):
-  File ".\first_case.py", line 38, in test_login_email_error
+  File "C:\Users\306.INVO\AppData\Local\Programs\Python\Python36\lib\site-packages\ddt.py", line 145, in wrapper
+    return func(self, *args, **kwargs)
+  File ".\first_ddt_case.py", line 52, in test_register_case
     self.assertFalse(email_error,'测试失败')
 AssertionError: True is not false : 测试失败
 
@@ -288,8 +278,8 @@ AssertionError: True is not false : 测试失败
 
 <tr id='total_row'>
     <td>Total</td>
+    <td>3</td>
     <td>2</td>
-    <td>1</td>
     <td>1</td>
     <td>0</td>
     <td>&nbsp;</td>
