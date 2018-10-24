@@ -1,0 +1,8 @@
+2018-10-24 15:30:24,390 user_log.py--><module> 58 DEBUG---->test
+2018-10-24 15:32:21,243 user_log.py--><module> 49 DEBUG---->test
+2018-10-24 15:56:53,643 first_case.py-->setUp 26 INFO---->this is Chrome
+2018-10-24 15:57:02,670 first_case.py-->setUp 26 INFO---->this is Chrome
+2018-10-24 15:59:50,992 first_case.py-->setUp 26 INFO---->this is Chrome
+2018-10-24 15:59:55,133 first_case.py-->setUp 26 INFO---->this is Chrome
+2018-10-24 16:02:02,363 first_case.py-->setUp 26 INFO---->this is Chrome
+2018-10-24 16:02:17,515 first_case.py-->setUp 26 INFO---->this is Chrome
