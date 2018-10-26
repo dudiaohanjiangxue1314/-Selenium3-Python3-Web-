@@ -46,5 +46,5 @@ class UserLog(object):
 if __name__ == '__main__':
     user = UserLog()
     log = user.get_log()
-    log.debug("test")
+    log.info("test")
     user.close_handle()
